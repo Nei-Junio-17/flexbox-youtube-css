@@ -1,0 +1,483 @@
+.youtube-assistindo {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .youtube-assistindo .div {
+    background-color: #f9f9f9;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .youtube-assistindo .sidebar {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 84px;
+    left: 1052px;
+  }
+  
+  .youtube-assistindo .video {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(assets/images/Thumb.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .infos {
+    position: relative;
+    width: 202px;
+    height: 89px;
+    left: 176px;
+  }
+  
+  .youtube-assistindo .text-wrapper {
+    position: absolute;
+    width: 196px;
+    top: 0;
+    left: 0;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .text-wrapper-2 {
+    position: absolute;
+    width: 196px;
+    top: 40px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .element-mil-visualiza-es {
+    position: absolute;
+    width: 196px;
+    top: 61px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .infos-wrapper {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(assets/images/image\ 12.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .infos-2 {
+    position: relative;
+    width: 202px;
+    height: 73px;
+    left: 176px;
+  }
+  
+  .youtube-assistindo .text-wrapper-3 {
+    position: absolute;
+    width: 196px;
+    top: 24px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .p {
+    position: absolute;
+    width: 196px;
+    top: 45px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .div-wrapper {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/image-13-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .video-2 {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/image-14.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .infos-3 {
+    position: relative;
+    width: 202px;
+    height: 90px;
+    left: 176px;
+  }
+  
+  .youtube-assistindo .element-visualiza-es {
+    position: absolute;
+    width: 196px;
+    top: 62px;
+    left: 0;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .overlap-group-wrapper {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/image-15.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .overlap-group {
+    position: relative;
+    width: 202px;
+    height: 91px;
+    top: -1px;
+    left: 176px;
+  }
+  
+  .youtube-assistindo .infos-4 {
+    position: absolute;
+    width: 202px;
+    height: 90px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .youtube-assistindo .video-3 {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/thumb-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .video-4 {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .video-5 {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/image-13.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .video-6 {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    background-image: url(./img/image-14-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .youtube-assistindo .watching-video {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 84px;
+    left: 75px;
+  }
+  
+  .youtube-assistindo .image {
+    position: relative;
+    width: 952px;
+    height: 537px;
+    object-fit: cover;
+  }
+  
+  .youtube-assistindo .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .youtube-assistindo .video-actions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .youtube-assistindo .channel-infos {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .youtube-assistindo .channel-avatar {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+  }
+  
+  .youtube-assistindo .DIO-mil {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .span {
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .youtube-assistindo .text-wrapper-5 {
+    font-family: "Roboto-Regular", Helvetica;
+    color: #505050;
+  }
+  
+  .youtube-assistindo .subscribe-button {
+    position: relative;
+    width: 161px;
+    height: 40px;
+  }
+  
+  .youtube-assistindo .inscreva-se-wrapper {
+    width: 159px;
+    background-color: #cc0000;
+    border-radius: 2px;
+    position: relative;
+    height: 40px;
+  }
+  
+  .youtube-assistindo .inscreva-se {
+    position: absolute;
+    top: 12px;
+    left: 35px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .youtube-assistindo .like {
+    position: relative;
+    width: 65px;
+    height: 24px;
+  }
+  
+  .youtube-assistindo .text-wrapper-6 {
+    position: absolute;
+    top: 4px;
+    left: 32px;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .youtube-assistindo .img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
+  .youtube-assistindo .deslike {
+    position: relative;
+    width: 102px;
+    height: 24px;
+  }
+  
+  .youtube-assistindo .share {
+    position: relative;
+    width: 117px;
+    height: 24px;
+  }
+  
+  .youtube-assistindo .download {
+    position: relative;
+    width: 97px;
+    height: 24px;
+    margin-right: -2px;
+  }
+  
+  .youtube-assistindo .element-visualiza-es-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Roboto-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .youtube-assistindo .text-wrapper-7 {
+    position: relative;
+    width: 510px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .youtube-assistindo .menu {
+    display: flex;
+    width: 1440px;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .youtube-assistindo .left {
+    position: relative;
+    width: 146px;
+    height: 24px;
+  }
+  
+  .youtube-assistindo .youtube {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    top: 2px;
+    left: 56px;
+    object-fit: cover;
+  }
+  
+  .youtube-assistindo .center {
+    position: relative;
+    width: 404px;
+    height: 40px;
+  }
+  
+  .youtube-assistindo .overlap-group-2 {
+    position: relative;
+    height: 40px;
+  }
+  
+  .youtube-assistindo .rectangle {
+    width: 348px;
+    left: 0;
+    background-color: #ffffff;
+    position: absolute;
+    height: 40px;
+    top: 0;
+    border: 1px solid;
+    border-color: #cccccc;
+  }
+  
+  .youtube-assistindo .rectangle-2 {
+    width: 57px;
+    left: 347px;
+    background-color: #f8f8f8;
+    position: absolute;
+    height: 40px;
+    top: 0;
+    border: 1px solid;
+    border-color: #cccccc;
+  }
+  
+  .youtube-assistindo .search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 361px;
+  }
+  
+  .youtube-assistindo .right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .youtube-assistindo .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .youtube-assistindo .avatar {
+    position: relative;
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+  }
+  
