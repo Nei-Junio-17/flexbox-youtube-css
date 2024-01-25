@@ -1,0 +1,297 @@
+.youtube {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.menu {
+  display: inline-flex;
+  width: 100%;
+  height: 56px;
+  padding: 0 24px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo {
+  display: flex;
+  width: 140px;
+  height: 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-menu {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.logo-youtube {
+  object-fit: cover;
+}
+
+.search {
+  display: inline-flex;
+  background-color: transparent;
+  border: 1px solid #a7a7a7;
+  width: 410px;
+  height: 40px; 
+  align-items: center;
+  cursor: pointer;
+}
+
+#text-search{
+  margin-left: 0;
+  padding: 8px;
+  width: 85%;   
+  border: 0 none;
+  border-right: 1px solid #a7a7a7;
+  font-size: 15px;
+}
+
+#text-search:focus{
+  border: 0 none;
+  border-right: 1px solid #a7a7a7;
+  outline: 0;
+}
+
+#text-search::placeholder{
+  font-weight: 600;
+  color: #cccccc;
+}
+
+
+#image-search{
+  margin: auto;
+  cursor: pointer;
+}
+
+.user-access {
+  display: inline-flex;
+  gap: 24px;
+}
+
+.cam, .bell {
+  cursor: pointer;
+}
+
+.avatar {
+  object-fit: cover;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.watching-video{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+}
+
+.watching-video .div {
+  background-color: #f9f9f9;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.video-title {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.video-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  position: relative;
+}
+
+.channel-infos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  
+}
+
+.info {
+  justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: fit-content;
+  flex-direction: column;
+  line-height: 1.2;
+  font-family: Roboto;
+}
+
+.button {
+  width: 159px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #C00;
+  border: none;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.thumbs-up {
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.thumbs-down {
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.share {
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.download {
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.element {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  position: static;
+  padding: 8px;
+  width: 915px;
+  color: #515151;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  line-height: 1.3;
+  position: static;
+  border: solid transparent;
+  background-color: transparent;
+}
+
+.description:hover{
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  height: 54px;
+  position: static;
+  border: solid #dfdede;
+  background-color: #dfdede;
+  border-radius: 9px;
+  transform: none;
+  transition: none;
+}
+
+.sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  max-width: 400px;
+}
+
+.video {
+  display: flex ;
+  flex-wrap: wrap;
+  gap: 12px;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  width: 225px;
+  flex-direction: column;
+  padding: auto;
+  gap: 10px;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-family: "Roboto-Semibold", Helvetica;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.channel {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #515151;
+}
+
+.preview {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 12px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #515151;
+  line-height: 1.2;
+}
